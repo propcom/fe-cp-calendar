@@ -33,7 +33,7 @@
 
     "install" : {
 
-        "calendar.php" : "includes/app/views/calendar.php"
+        "index.php" : "includes/app/views/index.php"
 
     }
 

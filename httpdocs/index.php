@@ -1,4 +1,10 @@
 
+<?
+	// Make sure links for the nav and calendar links mathc what your page name is called i.e index.php
+
+?>
+
+
 <section class="diary__wrapper">
 
 	<?
@@ -100,9 +106,15 @@
 
 			<? $selectdate = mktime(0, 0, 0, $_GET['month'], $_GET['day'], $_GET['year']) ?>
 
+
+
 			<div class="event__container">
 
-				<? IF (isset($eventsData['events'][$selectdate])): ?>
+				<? IF (isset($eventsData['events'][$selectdate])):
+
+					// Main Event Container
+
+					?>
 
 					<? foreach ($eventsData['events'][$selectdate] as $event): ?>
 
