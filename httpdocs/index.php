@@ -1,8 +1,4 @@
 
-<?
-	// Make sure links for the nav and calendar links mathc what your page name is called i.e index.php
-
-?>
 
 
 <section class="diary__wrapper">
@@ -17,6 +13,7 @@
 		$nextMonth = strtotime('+1 month', $startOfMonth);
 		$prevMonth = strtotime('-1 month', $startOfMonth);
 
+		// Client Site ID
 		$siteId = 1275;
 		require_once '/var/www/shared/calendarincludes/calendar.php';
 
