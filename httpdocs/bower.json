@@ -1,0 +1,40 @@
+{
+
+    "name": "cpCalendar",
+    "authors": [
+
+        "Simon Moore"
+
+    ],
+
+    "description": "CP Calendar",
+    "main": "index.php",
+    "repository": {
+
+        "type" : "git",
+        "url" : "https://github.com/propcom/fe_cp_calendar.git"
+
+    },
+
+    "keywords": [
+
+        "Calendar",
+        "responsive",
+        "jQuery",
+        "Propeller",
+        "propcomm",
+        "propeller",
+        "propcom"
+
+    ],
+
+    "license": "Public",
+    "calendar": "https://github.com/propcom/fe_cp_calendar.git",
+
+    "install" : {
+
+        "calendar.php" : "includes/app/views/calendar.php"
+
+    }
+
+}
